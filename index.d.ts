@@ -2,4 +2,4 @@
 // project: 2sxc typings
 // definitions by: Daniel Mettler, 2sic <https://2sxc.org/>
 
-import "2sxc-js/main"
+import "./2sxc-js/main"
