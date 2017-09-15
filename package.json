@@ -1,0 +1,29 @@
+{
+  "name": "2sxc-typings",
+  "version": "9.0.0",
+  "description": "Typescript typings to work with core 2sxc objects",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2sic/2sxc-typings.git"
+  },
+  "keywords": [
+    "DNN",
+    "2sxc",
+    "2SexyContent",
+    "Content",
+    "Management",
+    "CMS",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "author": "2sic Internet Solutions (Switzerland & Liechtenstein)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2sic/2sxc-typings/issues"
+  },
+  "homepage": "https://github.com/2sic/2sxc-typings#readme"
+}
