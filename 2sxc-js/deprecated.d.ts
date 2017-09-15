@@ -2,6 +2,7 @@
 // Project: 2sxc Content-Management and App System
 // Definitions by: Daniel Mettler (iJungleboy) www.2sxc.org
 
+import "./main";
 
 /**
  * special old setup to retrieve data belonging to this sxc-instance

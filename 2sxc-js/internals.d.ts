@@ -2,7 +2,7 @@
 // Project: 2sxc Content-Management and App System
 // Definitions by: Daniel Mettler (iJungleboy) www.2sxc.org
 
-
+import "./deprecated";
 
 
 interface SxcControllerWithInternals extends SxcController {
