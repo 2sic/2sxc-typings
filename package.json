@@ -26,7 +26,7 @@
     "url": "https://github.com/2sic/2sxc-typings/issues"
   },
   "homepage": "https://github.com/2sic/2sxc-typings#readme",
-  "types": [ 
+  "types": [
     "./index.d.ts"
-   ]
+  ]
 }
