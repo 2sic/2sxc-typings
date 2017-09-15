@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/2sic/2sxc-typings#readme",
   "types": [ 
-    "./2sxc-js/2sxcInterfaces.d.ts", 
-    "./2sxc-js/internals/internals.d.ts"
+    "./index.d.ts"
    ]
 }

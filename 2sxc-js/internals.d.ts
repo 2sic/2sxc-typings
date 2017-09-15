@@ -3,6 +3,7 @@
 // Definitions by: Daniel Mettler (iJungleboy) www.2sxc.org
 
 import "./deprecated";
+import { SxcInstanceWithDeprecated } from "./deprecated";
 
 
 interface SxcControllerWithInternals extends SxcController {
