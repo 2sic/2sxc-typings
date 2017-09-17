@@ -1,7 +1,0 @@
-
-
-// todo
-
-interface Command {
-    
-}
