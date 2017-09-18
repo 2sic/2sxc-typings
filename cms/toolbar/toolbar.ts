@@ -30,6 +30,5 @@ class QConfigListItem extends ToolbarConfig {
 
 // class QConfigEntity extends ToolbarConfig {
 //     constructor(
-        
 //     )
 // }

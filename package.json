@@ -1,6 +1,6 @@
 {
   "name": "@2sic.com/2sxc-typings",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Typescript typings to work with core 2sxc objects",
   "main": "index.ts",
   "scripts": {
