@@ -2,12 +2,12 @@
 // project: 2sxc typings
 // definitions by: Daniel Mettler, 2sic <https://2sxc.org/>
 
- /**
-  * The primary and only entry point is the $2sxc controller
-  * it uses the $ in the beginning to show it's global, like jQuery
-  * otherwise the $ has no meaning
-  */
-  declare const $2sxc: SxcController;
+/**
+ * The primary and only entry point is the $2sxc controller
+ * it uses the $ in the beginning to show it's global, like jQuery
+ * otherwise the $ has no meaning
+ */
+declare const $2sxc: SxcController;
 
 /**
  * This is the interface for the main $2sxc object on the window
@@ -15,9 +15,9 @@
 interface SxcController {
     /**
      * returns a 2sxc-instance of the id or html-tag passed in
-     * @param id 
+     * @param id
      * @param cbid
-     * @returns {} 
+     * @returns {}
      */
     (id: number | HTMLElement, cbid?: number): SxcInstance,
 
@@ -38,8 +38,6 @@ interface SxcController {
     },
 }
 
-
-
 /**
  * The typical sxc-instance object for a specific DNN module or content-block
  */
@@ -59,8 +57,8 @@ interface SxcInstance {
     /**
      * converts a short api-call path like "/app/Blog/query/xyz" to the DNN full path
      * which varies from installation to installation like "/desktopmodules/api/2sxc/app/..."
-     * @param virtualPath 
-     * @returns mapped path 
+     * @param virtualPath
+     * @returns mapped path
      */
     resolveServiceUrl(virtualPath: string): string,
 
@@ -77,7 +75,7 @@ interface SxcInstance {
 interface SxcInstanceWithEditing extends SxcInstance {
     /**
      * checks if we're currently in edit mode
-     * @returns {boolean} 
+     * @returns {boolean}
      */
     isEditMode(): boolean,
 
@@ -99,7 +97,7 @@ interface SxcWebApi {
      * @param settingsOrUrl the url to get
      * @param params jQuery style ajax parameters
      * @param data jQuery style data for post/put requests
-     * @param preventAutoFail 
+     * @param preventAutoFail
      * @returns {Promise} jQuery ajax promise object
      */
     get(settingsOrUrl: string | any, params?: any, data?: any, preventAutoFail?: boolean): any;
@@ -109,7 +107,7 @@ interface SxcWebApi {
      * @param settingsOrUrl the url to get
      * @param params jQuery style ajax parameters
      * @param data jQuery style data for post/put requests
-     * @param preventAutoFail 
+     * @param preventAutoFail
      * @returns {Promise} jQuery ajax promise object
      */
     post(settingsOrUrl: string | any, params?: any, data?: any, preventAutoFail?: boolean): any;
@@ -119,7 +117,7 @@ interface SxcWebApi {
      * @param settingsOrUrl the url to talk to
      * @param params jQuery style ajax parameters
      * @param data jQuery style data for post/put requests
-     * @param preventAutoFail 
+     * @param preventAutoFail
      * @returns {Promise} jQuery ajax promise object
      */
     delete(settingsOrUrl: string | any, params?: any, data?: any, preventAutoFail?: boolean): any;
@@ -129,7 +127,7 @@ interface SxcWebApi {
      * @param settingsOrUrl the url to put
      * @param params jQuery style ajax parameters
      * @param data jQuery style data for post/put requests
-     * @param preventAutoFail 
+     * @param preventAutoFail
      * @returns {Promise} jQuery ajax promise object
      */
     put(settingsOrUrl: string | any, params?: any, data?: any, preventAutoFail?: boolean): any;

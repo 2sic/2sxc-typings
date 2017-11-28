@@ -1,15 +1,42 @@
 {
-  "name": "@2sic.com/2sxc-typings",
-  "version": "9.0.1",
+  "_args": [
+    [
+      "@2sic.com/2sxc-typings@9.0.1",
+      "C:\\Projects\\app-dnn-sxc-angular-dev"
+    ]
+  ],
+  "_from": "@2sic.com/2sxc-typings@9.0.1",
+  "_id": "@2sic.com/2sxc-typings@9.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-qQEzvrCgdmWH3KKEv90EV+PvWiK34dW9YSo3Fx4/nZtrvVIUc5pthMoFi/YeH9o8XZO9forRRem/ByDw1UeQLg==",
+  "_location": "/@2sic.com/2sxc-typings",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@2sic.com/2sxc-typings@9.0.1",
+    "name": "@2sic.com/2sxc-typings",
+    "escapedName": "@2sic.com%2f2sxc-typings",
+    "scope": "@2sic.com",
+    "rawSpec": "9.0.1",
+    "saveSpec": null,
+    "fetchSpec": "9.0.1"
+  },
+  "_requiredBy": [
+    "/@2sic.com/dnn-sxc-angular"
+  ],
+  "_resolved": "https://registry.npmjs.org/@2sic.com/2sxc-typings/-/2sxc-typings-9.0.1.tgz",
+  "_spec": "9.0.1",
+  "_where": "C:\\Projects\\app-dnn-sxc-angular-dev",
+  "author": {
+    "name": "2sic Internet Solutions",
+    "url": "Switzerland & Liechtenstein"
+  },
+  "bugs": {
+    "url": "https://github.com/2sic/2sxc-typings/issues"
+  },
   "description": "Typescript typings to work with core 2sxc objects",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/2sic/2sxc-typings.git"
-  },
+  "homepage": "https://github.com/2sic/2sxc-typings#readme",
   "keywords": [
     "DNN",
     "2sxc",
@@ -20,13 +47,16 @@
     "TypeScript",
     "JavaScript"
   ],
-  "author": "2sic Internet Solutions (Switzerland & Liechtenstein)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/2sic/2sxc-typings/issues"
+  "name": "@2sic.com/2sxc-typings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2sic/2sxc-typings.git"
   },
-  "homepage": "https://github.com/2sic/2sxc-typings#readme",
-  "types": [
-    "./index.d.ts"
-  ]
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "./index.d.ts",
+  "main": "",
+  "version": "9.0.3"
 }
