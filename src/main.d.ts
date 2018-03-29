@@ -7,12 +7,12 @@
  * it uses the $ in the beginning to show it's global, like jQuery
  * otherwise the $ has no meaning
  */
-declare const $2sxc: SxcController;
+export declare const $2sxc: SxcController;
 
 /**
  * This is the interface for the main $2sxc object on the window
  */
-interface SxcController {
+export interface SxcController {
     /**
      * returns a 2sxc-instance of the id or html-tag passed in
      * @param id
@@ -41,7 +41,7 @@ interface SxcController {
 /**
  * The typical sxc-instance object for a specific DNN module or content-block
  */
-interface SxcInstance {
+export interface SxcInstance {
     /**
      * the sxc-instance ID, which is usually the DNN Module Id
      */
@@ -72,7 +72,7 @@ interface SxcInstance {
  * Enhanced sxc instance with additional editing functionality
  * Use this, if you intend to run content-management commands like "edit" from your JS directly
  */
-interface SxcInstanceWithEditing extends SxcInstance {
+export interface SxcInstanceWithEditing extends SxcInstance {
     /**
      * checks if we're currently in edit mode
      * @returns {boolean}
@@ -91,7 +91,7 @@ interface SxcInstanceWithEditing extends SxcInstance {
  * it will ensure that the headers etc. are set correctly
  * and that urls are rewritten
  */
-interface SxcWebApi {
+export interface SxcWebApi {
     /**
      * returns an http-get promise
      * @param settingsOrUrl the url to get
