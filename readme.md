@@ -1,10 +1,5 @@
-# 2sxc TypeScript Typings
+# 2sxc TypeScript Typings has Moved
 
-This is a pure typings repository, which should help you write type-safe code when working with 2sxc JavaScript APIs.
+This was the old d.ts project. 
 
-Use this to create Angular, React, Vue etc. adaptors. 
-
-We recommend to not use this API in the final SPAs and APPs, as the adapters should then provide an abstraction around this. 
-
-Love from Switzerland, 
-Daniel
+We have now moved it to [2sxc.ui](https://github.com/2sic/2sxc-ui/tree/master/typings)
